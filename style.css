@@ -79,7 +79,6 @@ body {
   html {
     font-size: 37%;
   }
-
   body {
     display: block;
   }
@@ -94,7 +93,7 @@ body {
     height: 9rem;
     margin: 4rem auto 0 auto;
     font-size: 2rem;
-  } 
+  }
 }
 @media only screen and (min-width: 322px) and (max-width: 376px) {
   html {
