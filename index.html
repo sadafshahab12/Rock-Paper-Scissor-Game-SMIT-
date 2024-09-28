@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock , Paper & Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon 2.png" type="image/png" />
+  </head>
+  <body>
+    <h1 class="heading">Rock Paper Scissor</h1>
+    <div class="img-container">
+      <div class="img">
+        <div class="images" id="rock" onclick="computerChoice()">
+          <img src="./images/rock.jpg" />
+        </div>
+        <div class="img-tag">
+          <h3>Rock</h3>
+        </div>
+      </div>
+      <div class="img">
+        <div class="images" id="paper" onclick="computerChoice()">
+          <img src="./images/paper.jpg" />
+        </div>
+        <div class="img-tag">
+          <h3>Paper</h3>
+        </div>
+      </div>
+      <div class="img">
+        <div class="images" id="scissor" onclick="computerChoice()">
+          <img src="./images/scissor.jpg" />
+        </div>
+        <div class="img-tag">
+          <h3>Scissor</h3>
+        </div>
+      </div>
+    </div>
+
+    <p class="msg"></p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
